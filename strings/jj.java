@@ -9,20 +9,3 @@ class Solution {
                 nums[mid] = nums[low];
                 nums[low] = temp;
 
-                low++;
-                mid++;
-            } 
-            else if (nums[mid] == 1) {
-                mid++;
-            } 
-            else { // nums[mid] == 2
-                // swap nums[mid] and nums[high]
-                int temp = nums[mid];
-                nums[mid] = nums[high];
-                nums[high] = temp;
-
-                high--;
-            }
-        }
-    }
-}
