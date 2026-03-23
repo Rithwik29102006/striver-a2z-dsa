@@ -6,6 +6,6 @@ class Solution {
             if (nums[mid] == 0) {
                 // swap nums[mid] and nums[low]
                 int temp = nums[mid];
-                nums[mid] = nums[low];
+            
                 nums[low] = temp;
 
