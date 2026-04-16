@@ -1,10 +1,21 @@
+from typing import List
+
 class Solution:
-    def maxSubArray(self, nums):
-        current_sum = nums[0]
-        max_sum = nums[0]
-
-        for i in range(1, len(nums)):
-            current_sum = max(nums[i], current_sum + nums[i])
-            max_sum = max(max_sum, current_sum)
-
-        return max_sum
+    def subarraySum(self, nums: List[int], k: int) -> int:
+        count = 0
+        prefix_sum = 0
+        
+        # hashmap to store frequency of prefix sums
+        mp = {0: 1}   # important: empty prefix has sum 0
+        
+        for num in nums:
+            prefix_sum += num
+            
+            # if (prefix_sum - k) exists, add its frequency
+            if prefix_sum - k in mp:
+                count += mp[prefix_sum - k]
+            
+            # update hashmap
+            mp[prefix_sum] = mp.get(prefix_sum, 0) + 1
+        
+        return count
