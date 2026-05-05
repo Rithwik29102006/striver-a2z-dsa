@@ -1,11 +1,5 @@
 class Solution {
-    public int singleNonDuplicate(int[] arr) {
-        // Get the size of the array
-        int n = arr.length;
-
-        // Edge case: only one element in the array
-        if (n == 1) return arr[0];
-
+ 
         // Edge case: first element is the unique one
         if (arr[0] != arr[1]) return arr[0];
 
