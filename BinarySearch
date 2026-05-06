@@ -1,16 +1,6 @@
 class Solution {
  
-        // Edge case: first element is the unique one
-        if (arr[0] != arr[1]) return arr[0];
-
-        // Edge case: last element is the unique one
-        if (arr[n - 1] != arr[n - 2]) return arr[n - 1];
-
-        // Initialize binary search bounds (exclude first and last index)
-        int low = 1, high = n - 2;
-
-        // Perform binary search
-        while (low <= high) {
+        // Edge 
             // Calculate middle index
             int mid = (low + high) / 2;
 
