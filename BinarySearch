@@ -1,13 +1,6 @@
 class Solution {
  
-        // Edge 
-            // Calculate middle index
-            int mid = (low + high) / 2;
-
-            // Check if middle element is the unique one
-            if (arr[mid] != arr[mid + 1] && arr[mid] != arr[mid - 1]) {
-                return arr[mid];
-            }
+  
 
             // If mid is in the left half (pairing is valid)
             if ((mid % 2 == 1 && arr[mid] == arr[mid - 1]) ||
