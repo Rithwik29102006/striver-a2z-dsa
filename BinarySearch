@@ -8,8 +8,6 @@ class Solution {
             // If mid is in the right half (pairing broken earlier)
             else {
                 // 
-        return -1;
-    }
 }
 
 
