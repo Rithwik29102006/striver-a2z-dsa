@@ -4,6 +4,4 @@ class Solution {
 
             //t half
                 low = mid + 1;
-            }
-            // If mid is in the right half (pairing broken earlier)
-          
+            
