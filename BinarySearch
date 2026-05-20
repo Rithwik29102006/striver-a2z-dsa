@@ -2,6 +2,4 @@ class Solution {
  
   
 
-            //t half
-                low = mid + 1;
-            
+            /
