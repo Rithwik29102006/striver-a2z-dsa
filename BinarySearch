@@ -7,8 +7,6 @@ class Solution {
         
         for(int i = 0; i < nums.length; i++) {
             
-            int
-                return new int[]{map.get(complement), i};
             
         }
         
