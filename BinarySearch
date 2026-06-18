@@ -15,8 +15,6 @@ class Solution {
         int left = i;
         int right = j - 1;
 
-        while (left < right) {
-            if (s.charAt(left) != s.charAt(right)) {
                 return false;
             
             right--;
