@@ -15,8 +15,6 @@ class Solution {
         int left = i;
         int right = j - 1;
 
-                return false;
-            
-            right--;
+     
         
 
