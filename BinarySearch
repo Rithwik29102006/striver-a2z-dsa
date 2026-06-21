@@ -11,5 +11,4 @@ class Solution {
         return "";
     }
 
-    private boolean check(int i, int j, String s) {
-        int left
+    private boolean check(int i, int j, Stri
