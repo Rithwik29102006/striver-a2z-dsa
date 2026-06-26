@@ -3,10 +3,4 @@ class Solution {
         for (int length = s.length(); length > 0; length--) {
             for (int start = 0; start <= s.length() - length; start++) {
                 if (check(start, start + length, s)) {
-                    return s.substring(start, start + length);
-                }
-            }
-        }
-
-        r
-
+                    return s.substring(start, start + len
