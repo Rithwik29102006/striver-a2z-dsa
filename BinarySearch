@@ -1,4 +1,3 @@
 class Solution {
     public String longestPalindrome(String s) {
-        for (int length = s.length(); length > 0; length--) {
-            for (int start 
+        for (int length = s.length(); l
