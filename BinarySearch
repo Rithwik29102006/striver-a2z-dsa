@@ -6,6 +6,5 @@ class Solution {
         int ans =n;
         while(low<=high) {
             int mid=(low+high)/2;
-            if (nums[mid] >=target){
-                ans=
+            if (nu
                 
