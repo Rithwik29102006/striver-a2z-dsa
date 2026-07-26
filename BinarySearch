@@ -4,6 +4,4 @@ class Solution {
         int low=0;
         int high=n-1;
         int ans =n;
-        while(low<=high) {
-            int mid=(l
-           
+        while(l
