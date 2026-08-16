@@ -31,7 +31,3 @@ class Solution {
                 map.put(count, i);
             }
         }
-
-        return maxLength;
-    }
-}
