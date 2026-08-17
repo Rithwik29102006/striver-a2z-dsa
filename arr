@@ -27,7 +27,4 @@ class Solution {
 
             } else {
 
-                // store only the first occurrence
-                map.put(count, i);
-            }
-        }
+            
