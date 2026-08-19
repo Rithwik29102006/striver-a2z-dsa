@@ -23,8 +23,6 @@ class Solution {
 
                 int length = i - previousIndex;
 
-                maxLength = Math.max(maxLength, length);
-
-            } else {
+       =
 
             
