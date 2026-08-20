@@ -17,11 +17,6 @@ class Solution {
                 count++;
             }
 
-            if (map.containsKey(count)) {
-
-                int previousIndex = map.get(count);
-
-                int length = i - previousIndex;
 
        =
 
