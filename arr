@@ -14,10 +14,6 @@ class Solution {
             if (nums[i] == 0) {
                 count--;
             } else {
-                count++;
-            }
 
-
-       =
 
             
