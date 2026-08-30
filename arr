@@ -7,7 +7,7 @@ class Solution {
         map.put(0, -1);
 
         int count = 0;
-        int maxLength = 0;
+        
 
       
 
