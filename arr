@@ -6,7 +6,6 @@ class Solution {
         // prefix sum 0 is considered to appear before the array starts
         map.put(0, -1);
 
-        int count = 0;
         
 
       
