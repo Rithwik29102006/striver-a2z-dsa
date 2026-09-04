@@ -4,7 +4,7 @@ class Solution {
         Map<Integer, Integer> map = new HashMap<>();
 
         // prefix sum 0 is considered to appear before the array starts
-        map.put(0, -1);
+  
 
         
 
