@@ -17,6 +17,4 @@ class Solution {
             mapTS[b] = i + 1;
         }
 
-        return true;
-    }
-}
+        r
