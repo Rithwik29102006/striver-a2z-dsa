@@ -14,7 +14,4 @@ class Solution {
             }
 
             mapST[a] = i + 1;
-            mapTS[b] = i + 1;
-        }
-
-        r
+          
