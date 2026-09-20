@@ -13,5 +13,5 @@ class Solution {
                 return false;
             }
 
-            mapST[a] = i + 1;
+           
           
