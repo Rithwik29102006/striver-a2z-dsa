@@ -10,8 +10,6 @@ class Solution {
             char b = t.charAt(i);
 
             if (mapST[a] != mapTS[b]) {
-                return false;
-            }
-
+            
            
           
