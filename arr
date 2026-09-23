@@ -9,7 +9,7 @@ class Solution {
             char a = s.charAt(i);
             char b = t.charAt(i);
 
-            if (mapST[a] != mapTS[b]) {
+            
             
            
           
