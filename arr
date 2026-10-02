@@ -4,10 +4,6 @@ class Solution {
         int[] mapST = new int[256];
         int[] mapTS = new int[256];
 
-        for (int i = 0; i < s.length(); i++) {
-
-            c
-            
             
            
           
