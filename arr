@@ -1,5 +1,5 @@
 class Solution {
-    public boolean isIsomorphic(String s, String t) {
+    public boolean isIsomorphic(String s, String
 
      
            
