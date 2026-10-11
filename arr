@@ -1,6 +1,5 @@
 class Solution {
-    public boolean isIsomorphic(
-
+    public boolean isIsomor
      
            
           
