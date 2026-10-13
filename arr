@@ -1,5 +1,4 @@
 class Solution {
-    public boolean isIsomor
-     
+    public boolean isIs
            
           
