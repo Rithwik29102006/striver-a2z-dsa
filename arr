@@ -27,10 +27,6 @@ class Solution {
                 else
                     water += rightMax - height[right];
 
-                right--;
-            }
-        }
-
-        return water;
+                return water;
     }
 }
