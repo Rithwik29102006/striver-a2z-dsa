@@ -25,8 +25,6 @@ class Solution {
                 if (height[right] >= rightMax)
                     rightMax = height[right];
                 else
-                    water += rightMax - height[right];
-
-                return water;
+                    
     }
 }
