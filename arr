@@ -22,8 +22,4 @@ class Solution {
 
             } else {
 
-                if (height[right] >= rightMax)
-                
-                    
-    }
-}
+            
