@@ -20,6 +20,4 @@ class Solution {
 
                 left++;
 
-            } else {
-
             
