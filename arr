@@ -13,6 +13,6 @@ class Solution {
 
             if (height[left] < height[right]) {
 
-                if (height[left] >= leftMax)
+     
                  
               
