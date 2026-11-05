@@ -11,7 +11,7 @@ class Solution {
 
         while (left < right) {
 
-            if (height[left] < height[right]) {
+        
 
      
                  
