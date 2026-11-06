@@ -9,8 +9,7 @@ class Solution {
 
         int water = 0;
 
-        while (left < right) {
-
+        
         
 
      
