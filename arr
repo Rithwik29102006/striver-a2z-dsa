@@ -12,9 +12,4 @@ class Codechef {
 
             if (N <= 2 * K && N >= K) {
                 System.out.println("YES");
-            } else {
-                System.out.println("NO");
             }
-        }
-    }
-}
