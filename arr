@@ -11,5 +11,4 @@ class Codechef {
             int K = sc.nextInt();
 
             if (N <= 2 * K && N >= K) {
-                System.out.println("YES");
-            }
+           
